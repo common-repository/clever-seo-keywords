@@ -1,0 +1,20 @@
+#clever_keywords_controls p {
+	margin: 0;
+	padding: 0;
+}
+#possible_clever_keywords li {
+	display: inline-block;
+	margin: 3px;
+}
+
+#possible_clever_keywords li a {
+	background: #cac9c9;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+#possible_clever_keywords li a.active, #possible_clever_keywords li a:hover {
+	background: #259b19;
+}
